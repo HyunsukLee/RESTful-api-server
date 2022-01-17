@@ -34,3 +34,10 @@ npm install -g sequelize-cli
 ```sh
 PORT=8000 npm run dev
 ```
+
+5. ERROR 발생시
+    > sqlite 설피 필요
+```sh
+npm i sqlite3 -D
+```
+
