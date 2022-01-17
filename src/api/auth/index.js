@@ -14,7 +14,7 @@ router.post('/signup', async (req, res) => {
     return res.status(400).json({ msg: '비밀번호를 입력해주세요.' });
   }
   else if (!name) {
-    return res.status(400).json({ msg: '이름을 입력해주세요.' })
+    return res.status(400).json({ msg: '이름을 입력해주세요.' });
   }
 
   try {
